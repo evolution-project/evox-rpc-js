@@ -15,7 +15,7 @@
   "devDependencies": {
     "chai": "^4.3.6",
     "chai-as-promised": "^7.1.1",
-    "jsdoc": "^3.6.10",
+    "jsdoc": "^4.0.2",
     "jsdoc-chameleon-template": "^1.0.2",
     "mocha": "^9.2.2",
     "uuid": "8.3.2"
@@ -37,7 +37,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cosmos2202/evox-rpc-js"
+    "url": "git+https://github.com/evolution-project/evox-rpc-js"
   },
   "keywords": [
     "evox",
@@ -45,5 +45,9 @@
     "Daemon",
     "Wallet",
     "client"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/evolution-project/evox-rpc-js/issues"
+  },
+  "homepage": "https://github.com/evolution-project/evox-rpc-js#readme"
 }

@@ -1,7 +1,7 @@
 'use strict'
 
 exports = module.exports = {
-  daemonAddress: process.env.DAEMON_ADDRESS || 'http://10.0.0.13:52521',
+  daemonAddress: process.env.DAEMON_ADDRESS || 'http://0.0.0.0:52521',
   daemonUsername: process.env.DAEMON_USER || 'user',
   daemonPassword: process.env.DAEMON_PASSWORD || 'pass',
   blockHash: '6d420b6a27ac284a93b86b6bd52423adc29f63c958d641c12eced1cd523f12e9',

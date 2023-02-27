@@ -1,16 +1,16 @@
 'use strict'
 
 exports = module.exports = {
-  walletAddress: process.env.WALLET_ADDRESS || 'http://10.0.0.13:52525',
+  walletAddress: process.env.WALLET_ADDRESS || 'http://0.0.0.0:52528',
   walletUsername: process.env.WALLET_USER || 'user',
   walletPassword: process.env.WALLET_PASSWORD || 'pass',
-  daemonAddress: process.env.DAEMON_ADDRESS || 'http://10.0.0.13:52521',
+  daemonAddress: process.env.DAEMON_ADDRESS || 'http://0.0.0.0:52521',
   daemonUsername: process.env.DAEMON_USER || 'user',
   daemonPassword: process.env.DAEMON_PASSWORD || 'pass',
-  watchOnlyWalletAddress: process.env.WALLET_ADDRESS || 'http://10.0.0.13:12234',
+  watchOnlyWalletAddress: process.env.WALLET_ADDRESS || 'http://0.0.0.0:12234',
   watchOnlyWalletUsername: process.env.WALLET_USER || 'user',
   watchOnlyWalletPassword: process.env.WALLET_PASSWORD || 'pass',
-  daemonAddress: process.env.DAEMON_ADDRESS || 'http://10.0.0.13:52521',
+  daemonAddress: process.env.DAEMON_ADDRESS || 'http://0.0.0.0:52521',
   restore_height: process.env.WALLET_RESTORE_HEIGHT || 0,
   testNetSeedA: 'coffee rest stand said leg muse defense wild about mighty horse melt really hum sharp seek honest brush depress beyond hundred silly confusion inhale birthday frozen',
   integratedTestAddressA: 'iZ1D8uVznFyhQKHvZF8nFtM6dgEn2htg66p3Z9BUhVNmivASMwhX2dbN52gMLq9CKs38vTwMRJccRA4MeLqrQEGgCbQFxcMALdu1xjgxYHxs',

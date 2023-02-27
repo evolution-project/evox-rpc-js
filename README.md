@@ -50,7 +50,7 @@ daemonClient.sslRejectUnauthorized(false)
 const rpcWallet = require('@evox/evox-rpc').RPCWallet
 
 const walletClient = rpcWallet.createWalletClient({
-  url: 'http://127.0.0.1:52525'
+  url: 'http://127.0.0.1:52528'
 })
 // When using a self signed certificate with HTTPS you need to set the function sslRejectUnauthorized to false.
 walletClient.sslRejectUnauthorized(false)
@@ -63,7 +63,7 @@ walletClient.sslRejectUnauthorized(false)
   const rpcWallet = require('@evox/evox-rpc').RPCWallet
 
   const walletClient = rpcWallet.createWalletClient({
-  url: 'http://127.0.0.1:52525',
+  url: 'http://127.0.0.1:52528',
   username: 'user',
   password: 'pass'
 })
@@ -89,7 +89,7 @@ npm test
 ```
 2. Use Console to execute following command to open normal wallet as a service with screen
 ```
-screen -S regularwallet ./simplewallet --wallet-file cosmos.test --password 123456 --rpc-bind-ip 10.0.0.13 --rpc-bind-port 52525 --daemon-address 10.0.0.13:52521
+screen -S regularwallet ./simplewallet --wallet-file cosmos.test --password 123456 --rpc-bind-ip 0.0.0.0 --rpc-bind-port 52528 --daemon-address 0.0.0.0:52521
 ```
 3. Run the market-place tests
 ```
@@ -103,7 +103,7 @@ npm run test-wallet-market-place
 ```
 2. Use Console to execute following command to open normal wallet as a service with screen
 ```
-screen -S regularwallet ./simplewallet --wallet-file cosmos.test --password 123456 --rpc-bind-ip 10.0.0.13 --rpc-bind-port 52525 --daemon-address 10.0.0.13:52521
+screen -S regularwallet ./simplewallet --wallet-file cosmos.test --password 123456 --rpc-bind-ip 0.0.0.0 --rpc-bind-port 52528 --daemon-address 0.0.0.0:52521
 ```
 3. Run the wallet tests
 ```
@@ -126,7 +126,7 @@ coffee rest stand said leg muse defense wild about mighty horse melt really hum 
 ```
 4. Use Console to execute following command to open normal wallet as a service with screen
 ```
-screen -S regularwallet ./simplewallet --wallet-file cosmos.test --password 123456 --rpc-bind-ip 10.0.0.13 --rpc-bind-port 52525 --daemon-address 10.0.0.13:52521
+screen -S regularwallet ./simplewallet --wallet-file cosmos.test --password 123456 --rpc-bind-ip 0.0.0.0 --rpc-bind-port 52528 --daemon-address 0.0.0.0:52521
 ```
 5. Use Console to restore a testnet wallet from seed
 ```
@@ -142,7 +142,7 @@ obviously essence rise wow appear glove veil gain beneath ask suddenly manage th
 ```
 8. Use Console to execute following command to open normal wallet as a service with screen
 ```
-screen -S otherwallet ./simplewallet --wallet-file cosmos.other --password 123456 --rpc-bind-ip 10.0.0.13 --rpc-bind-port 12234 --daemon-address 10.0.0.13:52521
+screen -S otherwallet ./simplewallet --wallet-file cosmos.other --password 123456 --rpc-bind-ip 0.0.0.0 --rpc-bind-port 12234 --daemon-address 0.0.0.0:52521
 ```
 9. Run the atomic tests
 ```
@@ -168,11 +168,11 @@ save_watch_only cosmos.watch 123456
 ```
 5. Use Console to execute following command to open watch_only wallet as a service with screen
 ```
-screen -S watchonlywallet ./simplewallet --wallet-file cosmos.watch --password 123456 --rpc-bind-ip 10.0.0.13 --rpc-bind-port 12234 --daemon-address 10.0.0.13:52521
+screen -S watchonlywallet ./simplewallet --wallet-file cosmos.watch --password 123456 --rpc-bind-ip 0.0.0.0 --rpc-bind-port 12234 --daemon-address 0.0.0.0:52521
 ```
 6. Use Console to execute following command to open normal wallet as a service with screen
 ```
-screen -S regularwallet ./simplewallet --wallet-file cosmos.test --password 123456 --rpc-bind-ip 10.0.0.13 --rpc-bind-port 52525 --daemon-address 10.0.0.13:52521
+screen -S regularwallet ./simplewallet --wallet-file cosmos.test --password 123456 --rpc-bind-ip 0.0.0.0 --rpc-bind-port 52528 --daemon-address 0.0.0.0:52521
 ```
 7. Run the cold-signing tests
 ```
@@ -195,7 +195,7 @@ coffee rest stand said leg muse defense wild about mighty horse melt really hum 
 ```
 4. Use Console to execute following command to open normal wallet as a service with screen
 ```
-screen -S regularwallet ./simplewallet --wallet-file cosmos.test --password 123456 --rpc-bind-ip 10.0.0.13 --rpc-bind-port 52525 --daemon-address 10.0.0.13:52521
+screen -S regularwallet ./simplewallet --wallet-file cosmos.test --password 123456 --rpc-bind-ip 0.0.0.0 --rpc-bind-port 52528 --daemon-address 0.0.0.0:52521
 ```
 5. Use Console to restore a testnet wallet from seed
 ```
@@ -211,7 +211,7 @@ obviously essence rise wow appear glove veil gain beneath ask suddenly manage th
 ```
 8. Use Console to execute following command to open normal wallet as a service with screen
 ```
-screen -S otherwallet ./simplewallet --wallet-file cosmos.other --password 123456 --rpc-bind-ip 10.0.0.13 --rpc-bind-port 12234 --daemon-address 10.0.0.13:52521
+screen -S otherwallet ./simplewallet --wallet-file cosmos.other --password 123456 --rpc-bind-ip 0.0.0.0 --rpc-bind-port 12234 --daemon-address 0.0.0.0:52521
 ```
 9. Run the contract tests
 ```
