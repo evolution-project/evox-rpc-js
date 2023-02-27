@@ -13,17 +13,12 @@
   ],
   "recurseDepth": 2,
   "template": {
-  "title": "Zano Javascript RPC Library",
-  "shortTitle": "Zano RPC JS",
+  "title": "EvoX Javascript RPC Library",
+  "shortTitle": "EvoX RPC JS",
   "links": [
     {
-      "github": "https://github.com/zano/zano-rpc-js",
+      "github": "https://github.com/cosmos2202/evox-rpc-js",
       "title": "View it on Github"
-    },
-    {
-      "npm": "https://www.npmjs.com/package/@zano/zano-rpc",
-      "title": "View it on NPM",
-      "size": 19
     }
   ],
   "scheme": "0",
