@@ -1,7 +1,7 @@
 {
-  "name": "@zano/zano-rpc",
+  "name": "@evox/evox-rpc",
   "version": "1.0.0",
-  "description": "Zano RPC Daemon and RPC Wallet Javascript Library",
+  "description": "EvoX RPC Daemon and RPC Wallet Javascript Library",
   "main": "index.js",
   "directories": {
     "doc": "docs",
@@ -15,7 +15,7 @@
   "devDependencies": {
     "chai": "^4.3.6",
     "chai-as-promised": "^7.1.1",
-    "jsdoc": "^3.6.10",
+    "jsdoc": "^4.0.2",
     "jsdoc-chameleon-template": "^1.0.2",
     "mocha": "^9.2.2",
     "uuid": "8.3.2"
@@ -37,17 +37,17 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zano/zano-rpc-js.git"
+    "url": "git+https://github.com/evolution-project/evox-rpc-js"
   },
   "keywords": [
-    "zano",
+    "evox",
     "RPC",
     "Daemon",
     "Wallet",
     "client"
   ],
   "bugs": {
-    "url": "https://github.com/zano/zano-rpc-js/issues"
+    "url": "https://github.com/evolution-project/evox-rpc-js/issues"
   },
-  "homepage": "https://github.com/zano/zano-rpc-js#readme"
+  "homepage": "https://github.com/evolution-project/evox-rpc-js#readme"
 }

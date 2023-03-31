@@ -43,7 +43,7 @@ describe('RPCWallet atomics tests', () => {
     after(async function() {
         try {} catch (error) {}
     })
-    it('perform atomic swap between two zano wallets', async () =>{
+    it('perform atomic swap between two evox wallets', async () =>{
         const proposal_opts = {
             amount: config.units * 1,
             counterparty_address: config.integratedTestAddressB,
